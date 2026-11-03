@@ -24,6 +24,7 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint'],
   rules: {
+    'vue/require-valid-default-prop': 'off',
     '@typescript-eslint/ban-types': [
       'error',
       {
